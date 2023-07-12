@@ -1,6 +1,6 @@
 ##NOTES:
 
-**Scenario-1-**
+**Scenario-1-**(aws-atlas-privatelink-multi-2-AWS-Account)
 
 - PersonalA and PersonalB Account
 - AWS and Atlas Region - London
@@ -14,7 +14,7 @@ AWS	eu-west-2	com.amazonaws.vpce.eu-west-2.vpce-svc-003e8fa0f550cebd4	Available 
 
 ```
 
-**Scenario-2-**
+**Scenario-2-**(aws-atlas-privatelink-multi-1-AWS-Account-2VPC)
 
 - Personal Account
 - AWS and Atlas Region - London
@@ -28,7 +28,7 @@ AWS	eu-west-2	com.amazonaws.vpce.eu-west-2.vpce-svc-0b5f6a90e59aa17d9	Available 
 
 ```
 
-**Scenario-3-**
+**Scenario-3-**(aws-atlas-privatelink-multi-1-AWS-Account-1VPC)
 
 - Personal Account
 - AWS and Atlas Region - London
