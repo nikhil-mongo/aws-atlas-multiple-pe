@@ -2,11 +2,11 @@
 
 **Scenario-1-**
 
-- MongoDB and Personal Account
+- PersonalA and PersonalB Account
 - AWS and Atlas Region - London
-- AWS VPC CIDR - 10.0.0.0/16 and Atlas VPC CIDR - 192.168.240.0/21
+- AWS VPC CIDR - 10.0.0.0/16(PersonalA and PersonalB) and Atlas VPC CIDR - 192.168.240.0/21
 - AWS Subnets deployed in same AZ and same subnet CIDR in both the AWS accounts.(10.0.1.0/24, 10.0.2.0/24)
-- Create one Atlas MongoDB Private Endpoint Service in London Region, and then the respection VPC_Endpoint in the MongoDB and Personal Account, which then connects to the Atlas MongoDB Private Endpoint Service in London Region
+- Create one Atlas MongoDB Private Endpoint Service in London Region, and then the respection VPC_Endpoint in the PersonalA and PersonalB Accounts, which then connects to the Atlas MongoDB Private Endpoint Service in London Region
 
 ```js
 AWS	eu-west-2	com.amazonaws.vpce.eu-west-2.vpce-svc-003e8fa0f550cebd4	Available vpce-0c3cf361495e7a4c7	 Available
